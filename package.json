@@ -24,6 +24,7 @@
 		"node": ">= 6.0.0"
 	},
 	"files": [
+		"fs.js",
 		"index.js"
 	],
 	"dependencies": {
