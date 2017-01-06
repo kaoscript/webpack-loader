@@ -1,7 +1,7 @@
 {
 	"name": "@kaoscript/webpack-loader",
 	"description": "kaoscript loader module for webpack",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": {
 		"name": "Baptiste Augrain",
 		"email": "daiyam@zokugun.org"
@@ -21,7 +21,7 @@
 		}
 	],
 	"engines": {
-		"node": ">= 6.0.0"
+		"node": ">= 4.0.0"
 	},
 	"files": [
 		"fs.js",

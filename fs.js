@@ -29,9 +29,6 @@ module.exports = {
 			}
 		}
 	}, // }}}
-	hidden: function(file, ext) { // {{{
-		return path.join(path.dirname(file), '.' + path.basename(file) + ext)
-	}, // }}}
 	isFile: function(file) { // {{{
 		file = path.resolve(this.resolve(file));
 		
