@@ -19,7 +19,6 @@ module.exports = function(source) {
 	
 	var filename = util.getRemainingRequest(this);
 	var params = util.parseQuery(this.query);
-	console.log(params)
 	
 	if(params.register) {
 		var modules = params.register.split('+');
